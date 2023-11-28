@@ -1,0 +1,86 @@
+a {
+    color: #cff53e;
+    text-decoration: none;
+}
+
+nav {
+    min-height: 7rem;
+    background-color: #6a8491;
+}
+
+#linksImHeader{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+.aHeader{
+    margin-top: 2rem;
+}
+
+.sectionMain {
+    min-height: 49.7rem;
+    background-image: url("../img/background.jpg");
+    text-align: center;
+    color: #cff53e;
+    display: grid;
+}
+
+.sectionRegister {
+    min-height: 49.7rem;
+    background-image: url("../img/background.jpg");
+    text-align: center;
+    color: #cff53e;
+    display: grid;
+    justify-content: center;
+}
+
+.logInFields{
+    min-height: 2rem;
+    font-size: 1em;
+    color: #4a5139;
+    background-color: #f3ead9;
+    border-color: #cff53e;
+    border-radius: 3rem;
+}
+
+.loginButtons {
+    margin-top: 2rem;
+    min-height: 3rem;
+    min-width: 14rem;
+    background-color: #6a8491;
+    font-size: large;
+    color: #cff53e;
+    border: 0.2rem solid #6f7542;
+    border-radius: 3rem;
+
+}
+
+label {
+    font-size: 1.5em;
+}
+
+#registerDiv{
+    min-height: 45.5rem;
+    /*background-color: darkgreen;*/
+    width: 30rem;
+    display: grid;
+    /*place-items: center;*/
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 3rem;
+}
+
+.registerFields{
+    min-height: 2rem;
+    font-size: 1em;
+    color: #4a5139;
+    background-color: #f3ead9;
+    border-color: #cff53e;
+    border-radius: 3rem;
+}
+
+.form-group {
+    display: grid;
+    margin-left: 12rem;
+}
