@@ -4,7 +4,6 @@ declare(strict_types=1);
 // UTF-8 marker äöüÄÖÜß€
 
 
-// to do: change name 'Bestellung' throughout this file
 require_once './Page.php';
 
 class Register extends Page
